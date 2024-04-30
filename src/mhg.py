@@ -100,7 +100,7 @@ class MHGPage:
             file_path,
             params={
                 'cid': self.opts['cid'],
-                'md5': self.opts['sl']['md5']
+                # 'md5': self.opts['sl']['md5']
             },
             headers={
                 'Referer': self.opts['referer']
